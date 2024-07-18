@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f5f5f5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    p {
+      color: #666;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+    li img {
+      width: 50px;
+      height: auto;
+      margin-right: 10px;
+      border-radius: 50%;
+    }
+    li span {
+      font-weight: bold;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>About Us</h1>
+  <p>This is the about page content.</p>
+  <p>Welcome to our website! We aim to provide valuable information and resources to our visitors.</p>
+  
+  <h2>Our Mission</h2>
+  <p>Our mission is to empower people with knowledge, inspire creativity, and foster community engagement through our platform.</p>
+  
+  <h2>Our Team</h2>
+  <ul>
+    <li>
+      <img src="john_doe.jpg" alt="John Doe">
+      <span>John Doe - CEO</span>
+    </li>
+    <li>
+      <img src="jane_smith.jpg" alt="Jane Smith">
+      <span>Jane Smith - COO</span>
+    </li>
+    <li>
+      <img src="web.jpg" alt="Michael Johnson">
+      <span>Michael Johnson - CTO</span>
+    </li>
+  </ul>
+  
+  <h2>Contact Us</h2>
+  <p>If you have any questions or feedback, feel free to reach out to us:</p>
+  <ul>
+    <li>Email: info@example.com</li>
+    <li>Phone: 123-456-7890</li>
+  </ul>
+  
+  <button onclick="goBack()">Back</button>
+  
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+</body>
+</html>
